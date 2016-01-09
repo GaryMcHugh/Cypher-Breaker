@@ -15,7 +15,7 @@ public class Decrypter implements Runnable{
 	}
 
 	public void run() {
-		RailFence rf = new RailFence(); //RailFence is a class given
+		RailFence rf = new RailFence();
 		String plainText = rf.decrypt(cypherText, key);
 		//get the score
 				
@@ -24,7 +24,7 @@ public class Decrypter implements Runnable{
 			queue.put(r);
 		} catch (InterruptedException e) {
 			e.printStackTrace();
-		}//surround with a try catch
+		}
 	}
 
 }
