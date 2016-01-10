@@ -1,0 +1,11 @@
+The class Runner.java is where the program is run from
+The user is prompted to enter a key and cypher message
+I used the key of 3
+and the cypher message contained in CypherMessage.txt
+The file 4 grams is parsed in FileParser.java
+The file is split on the space using the split method
+design.png contains a uml diagram of the classes
+The message should have been decrypyted and scored using threads
+Then added to the blocking queue
+The one with the highest score would then be retuened to the user
+The key should be at most word.length/2
